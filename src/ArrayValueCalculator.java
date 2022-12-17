@@ -1,7 +1,7 @@
 public class ArrayValueCalculator {
     static int doCalc(String[][] arr) {
         try {
-            if (arr.length != 4 || arr[0].length != 4) {
+            if (arr.length != 4 || !checkArray(arr)) {
                 throw new ArraySizeException();
             } else {
                 System.out.println("Array size is ok.");
@@ -19,5 +19,12 @@ public class ArrayValueCalculator {
             }
         }
         return sum;
+    }
+
+    private static boolean checkArray(String[][] arr) {
+        for (int i = 0; i < arr.length; i++) {
+                if (arr[i].length != arr.length) return false;
+        }
+        return true;
     }
 }

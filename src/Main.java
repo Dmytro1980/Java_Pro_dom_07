@@ -14,8 +14,8 @@ public class Main {
 
 
 //        System.out.println("Sum = " + ArrayValueCalculator.doCalc(s1));
-//        System.out.println("Sum = " + ArrayValueCalculator.doCalc(s2));
-        System.out.println("Sum = " + ArrayValueCalculator.doCalc(s3));
+        System.out.println("Sum = " + ArrayValueCalculator.doCalc(s2));
+//        System.out.println("Sum = " + ArrayValueCalculator.doCalc(s3));
 //        System.out.println("Sum = " + ArrayValueCalculator.doCalc(s4));
 
     }
